@@ -1,12 +1,18 @@
 // Package api ...
 package api
 
-import (
-	"net/http"
+package main
 
+import (
+	"fmt"
 	"github.com/gorilla/mux"
 	"github.com/gustavocd/demo-vercel/api/users"
+	"net/http"
 )
+
+func main() {
+	fmt.Println("sddddddd")
+}
 
 // API represents the entry point for all our serverless functions.
 func API(w http.ResponseWriter, r *http.Request) {
